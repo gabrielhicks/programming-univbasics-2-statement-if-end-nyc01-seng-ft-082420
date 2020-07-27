@@ -1,1 +1,3 @@
-current_time = Time.authenticate_or_request_with_http_diges
+current_time = Time.now
+if current_time.to_i % 2 == 0
+  puts "Even"
